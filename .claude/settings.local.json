@@ -4,7 +4,8 @@
       "Bash(python3:*)",
       "Bash(git init:*)",
       "Bash(./package.sh)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
