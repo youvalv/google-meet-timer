@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Timer",
+  "version": "1.0.0",
+  "description": "Display a timer for Google Meet sessions",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png", 
+    "128": "icon128.png"
+  }
+}
